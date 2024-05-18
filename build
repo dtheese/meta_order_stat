@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -o nounset
+set -o errexit
+set -o pipefail
+
+g++ -std=c++20 -Wall -Wpedantic -Wextra -o meta_order_stat *.cpp
+
+exit 0
