@@ -1,7 +1,0 @@
-#!/bin/bash
-
-set -o nounset
-set -o errexit
-set -o pipefail
-
-cppcheck --std=c++20 --enable=all --cppcheck-build-dir=cppcheck_work_folder *.cpp
